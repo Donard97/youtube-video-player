@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Youtube Video Player</title>
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <div class="first">
+                <li><i class="fas fa-bars"></i> </li>
+                <li><img style="margin-top:-20px;" class="logo" src="images/Youtube-Logo.png" alt="logo" width="98px">
+                </li>
+            </div>
+            <div class="second">
+                <li>
+                    <form class="search">
+                        <input type="text" placeholder="Search" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
+                <li><img class="logo" src="images/microphone.png" alt="logo" width="20px"></li>
+
+            </div>
+            <div class="third">
+                <li><img class="logo" src="images/video.png" alt="logo" width="20px"></li>
+                <li><img class="logo" src="images/apps.png" alt="logo" width="20px"></li>
+                <li><img class="logo" src="images/notification.png" alt="logo" width="20px"></li>
+                <li><img id="profile" class="logo" src="images/photo.png" alt="logo" width="38px" height="36px"
+                        style="border-radius: 50%;"></li>
+            </div>
+        </ul>
+    </header>
+<div id="leftside">
+    <div class="section-1">
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/phaJXp_zMYM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+            <h1 class="video-title">The Notorious B.I.G. - Big Poppa (Official Music Video)</h1>
+        </div>
+        <div class="video-details">
+            <p class="views-date">286,950,271 views Sep 6, 2011</p>
+            <div class="thumbnails">
+                <div class="likedislike">
+                    <div class="img-1">
+                        <img src="images/like.png" alt="like" width="19px" height="19px">
+                        <p>2.2M</p>
+                    </div>
+                    <div class="img-2">
+                        <img src="images/dislike.png" alt="dislike" width="19px" height="19px">
+                        <p>51K</p>
+                    </div>
+                </div>
+
+                <div class="img-3">
+                    <img src="images/share.png" alt="share" width="19px" height="19px">
+                    <p>SHARE</p>
+                </div>
+                <div class="img-4">
+                    <img src="images/playlist.png" alt="playlist" width="19px" height="19px">
+                    <p>SAVE</p>
+                </div>
+                <div class="img-5">
+                    <img src="images/more.png" alt="more" width="19px" height="19px">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="profile">
+        <div class="profile-details">
+            <img id="profile-1" src="images/notorious.jpg" alt="profile">
+            <div class="details">
+                <h4>The Notorious B.I.G. <img src="images/musical-note.png" alt="musicalnote" width="18px" /></h4>
+                <p>2.69M subscribers</p>
+            </div>
+            <div class="btn">
+                <button id="btn">SUBSCRIBED</button>
+                <img id="notification-sub" src="images/bell.png" alt="bell" width="25px" />
+            </div>
+            <br>
+            <div class="details-1">
+                <p>Official Music Video for The Notorious B.I.G. - "Big Poppa"</p>
+                <p> Director: Hype Williams & Sean "Puffy" Combs</p>
+                <p>Subscribe to the channel <a href="https://Rhino.lnk.to/YTBiggieSubID"
+                        style="text-decoration: none; color: #065fd4;">https://Rhino.lnk.to/YTBiggieSubID</a>
+                </p>
+            </div>
+            <button id="btn-show">SHOW MORE</button>
+        </div>
+    </div>
+    <div class="comments">
+        <p>65,350 Comments</p>
+        <div class="sort">
+            <img src="images/sort.png" alt="sort-by" width="20px">
+            <p>SORT BY</p>
+        </div>
+    </div>
+    <div class="comments-1">
+        <img src="images/photo.png" alt="profile" width=48px" style="border-radius: 50%;">
+        <p>Commenting publicly as Donard Golaj</p>
+    </div>
+    <hr id="hr">
+    <div class="first-comment">
+        <div class="profile-photo">
+            <img src="images/male2.jpg" alt="profile" width="35px" style="border-radius: 50%;">
+        </div>
+        <div class="profile-comment">
+            <div class="profile-title">
+                <h5>Rafix Rap</h5>
+                <p style="color:gray;font-size:12px;">7 years ago</p>
+            </div>
+            <p id="first-comment">I remembered the words of CJ = What? Big Poppa?</p>
+            <div class="likes-dislikes">
+                <div class="like">
+                    <img style="margin-top:-3px;" src="images/like.png" alt="like" width="18px" height="18px">
+                    <p>30K</p>
+                </div>
+                <div class="dislike">
+                    <img src="images/dislike.png" alt="dislike" width="18px" height="18px">
+                    <p>REPLY</p>
+                </div>
+            </div>
+            <div class="replies">
+                <img src="images/arrow-down.png" alt="arrow-down" width="11px" height="11px" style="font-weight: 600;">
+                <button id="comment-btn">View 219 replies</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="first-comment-1">
+        <div class="profile-photo-1">
+            <img src="images/male1.jpg" alt="profile" width="35px" style="border-radius: 50%;">
+        </div>
+        <div class="profile-comment-1">
+            <div class="profile-title-1">
+                <h5>Cristian Gabriel</h5>
+                <p style="color:gray;font-size:12px;"> 3 weeks ago (edited)</p>
+            </div>
+            <p id="first-comment-1">if you know this song from GTA San Andreas (as many others from Ice Cube) you are a
+                living legend ❤</p>
+            <div class="likes-dislikes-1">
+                <div class="like">
+                    <img style="margin-top:-3px;" src="images/like.png" alt="like" width="18px" height="18px">
+                    <p>1.5K</p>
+                </div>
+                <div class="dislike-1">
+                    <img src="images/dislike.png" alt="dislike" width="18px" height="18px">
+                    <p>REPLY</p>
+                </div>
+            </div>
+            <div class="replies-1">
+                <img src="images/arrow-down.png" alt="arrow-down" width="11px" height="11px" style="font-weight: 600;">
+                <button id="comment-btn">View 64 replies</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="first-comment-2">
+        <div class="profile-photo-2">
+            <img src="images/male3.jpg" alt="profile" width="35px" style="border-radius: 50%;">
+        </div>
+        <div class="profile-comment-1">
+            <div class="profile-title-2">
+                <h5>James Wodd</h5>
+                <p style="color:gray;font-size:12px;"> 3 weeks ago</p>
+            </div>
+            <p id="first-comment-2">Back when Rappers used to look like human beings</p>
+            <div class="likes-dislikes-2">
+                <div class="like">
+                    <img style="margin-top:-3px;" src="images/like.png" alt="like" width="18px" height="18px">
+                    <p>3K</p>
+                </div>
+                <div class="dislike-2">
+                    <img src="images/dislike.png" alt="dislike" width="18px" height="18px">
+                    <p>REPLY</p>
+                </div>
+            </div>
+            <div class="replies-2">
+                <img src="images/arrow-down.png" alt="arrow-down" width="11px" height="11px" style="font-weight: 600;">
+                <button id="comment-btn">View 83 replies</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="first-comment-3">
+        <div class="profile-photo-3">
+            <img src="images/girl.jpg" alt="profile" width="35px" style="border-radius: 50%;">
+        </div>
+        <div class="profile-comment-3">
+            <div class="profile-title-3">
+                <h5>Jesse St-Laurent</h5>
+                <p style="color:gray;font-size:12px;"> 1 week ago</p>
+            </div>
+            <p id="first-comment-3">That opening part is just 100% 90’s and I can’t even realize how cool this was back then</p>
+            <div class="likes-dislikes-3">
+                <div class="like">
+                    <img style="margin-top:-3px;" src="images/like.png" alt="like" width="18px" height="18px">
+                    <p>3K</p>
+                </div>
+                <div class="dislike-3">
+                    <img src="images/dislike.png" alt="dislike" width="18px" height="18px">
+                    <p>REPLY</p>
+                </div>
+            </div>
+            <div class="replies-3">
+                <img src="images/arrow-down.png" alt="arrow-down" width="11px" height="11px" style="font-weight: 600;">
+                <button id="comment-btn">View 83 replies</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+   
+
+    <aside>
+        <div class="btn-aside">
+            <p style="border-radius: 17px; color: white; background-color: black;">All</p>
+            <p>Related</p>
+            <p>Recently uploaded</p>
+            <p>Watched</p>
+        </div>
+        <div class="recommendation">
+            <div class="video">
+                <a href="https://www.youtube.com/watch?v=K5UGBjuZxAE" target="_blank">
+
+                    <div class="video-img">
+                        <img src="images/methodman.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>3:44</span>
+                    </div>
+                    <div class="video-info">
+                        <h3 class="video-title">Method Man - Is it me</h3>
+                        <div class="video-channel-name">
+                            12dogg12
+                        </div>
+                        <p class="thumbnail-video-info">931K views - 10 years ago</p>
+                    </div>
+                    <div class="hovericons">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-1">
+                <a href="https://www.youtube.com/watch?v=jZ5EbnwdXec" target="_blank">
+
+                    <div class="video-img-1">
+                        <img src="images/snoopdogg.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:42</span>
+                    </div>
+                    <div class="video-info-1">
+                        <h3 class="video-title">Snoop Dogg - Imagine</h3>
+                        <div class="video-channel-name">
+                            ChilledHipHop
+                        </div>
+                        <p class="thumbnail-video-info">3.8M views - 10 years ago</p>
+                    </div>
+                    <div class="hovericons-1">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-2">
+                <a href="https://www.youtube.com/watch?v=Uux6tw45HBk" target="_blank">
+
+                    <div class="video-img-2">
+                        <img src="images/ghetto.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:42</span>
+                    </div>
+                    <div class="video-info-2">
+                        <h3 class="video-title">"Ghetto (remix)" Akon feat<br> Biggie & 2Pac</h3>
+                        <div class="video-channel-name">
+                            render3006
+                        </div>
+                        <p id="thumbnail-video-info-2">43M views - Jul 19, 2009</p>
+                    </div>
+                    <div class="hovericons-2">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-3">
+                <a href="https://www.youtube.com/watch?v=nrXDolxczmw" target="_blank">
+
+                    <div class="video-img-3">
+                        <img src="images/natedogg.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:00</span>
+                    </div>
+                    <div class="video-info-3">
+                        <h3 class="video-title">Nate Dogg - Music and me</h3>
+                        <div class="video-channel-name">radoxo </div>
+                        <p id="thumbnail-video-info-3">41M views - Jun 6, 2008
+                        </p>
+                    </div>
+                    <div class="hovericons-3">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-4">
+                <a href="https://www.youtube.com/watch?v=b2DwnGMAOQs" target="_blank">
+
+                    <div class="video-img-4">
+                        <img src="images/eminem.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:00</span>
+                    </div>
+                    <div class="video-info-4">
+                        <h3 class="video-title">Eminem - Careful What <br> You Wish For </h3>
+                        <div class="video-channel-name">
+                            Lyrics Of All Genres</div>
+                        <p id="thumbnail-video-info">378,634 views - Aug 6, 2019 </p>
+                    </div>
+                    <div class="hovericons-4">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-5">
+                <a href="https://www.youtube.com/watch?v=H1HdZFgR-aA" target="_blank">
+
+                    <div class="video-img-5">
+                        <img src="images/2pac.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:42</span>
+                    </div>
+                    <div class="video-info-5">
+                        <h3 class="video-title">2Pac - All Eyez On Me</h3>
+                        <div class="video-channel-name">
+                            render3006
+                        </div>
+                        <p id="thumbnail-video-info-5">30M views - May 19, 2020</p>
+                    </div>
+                    <div class="hovericons-2">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-6">
+                <a href="https://www.youtube.com/watch?v=WkYnhoNRB04" target="_blank">
+
+                    <div class="video-img-6">
+                        <img src="images/snoopdogg-1.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:42</span>
+                    </div>
+                    <div class="video-info-6">
+                        <h3 class="video-title">2Pac - All Eyez On Me</h3>
+                        <div class="video-channel-name">
+                            render3006
+                        </div>
+                        <p id="thumbnail-video-info-6">30M views - May 19, 2020</p>
+                    </div>
+                    <div class="hovericons-6">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+            <div class="video-7">
+                <a href="https://www.youtube.com/watch?v=uLkKD2hFnIc" target="_blank">
+
+                    <div class="video-img-7">
+                        <img src="images/nasdamian.jpg" alt="recommendation-video" width="200px" height="130px" />
+                    </div>
+                    <div class="duration">
+                        <span>4:42</span>
+                    </div>
+                    <div class="video-info-7">
+                        <h3 class="video-title">Nas & Damian Marley - Patience</h3>
+                        <div class="video-channel-name">reddragon11554</div>
+                        <p id="thumbnail-video-info-6">17M views - Dec 4, 2010</p>
+                    </div>
+                    <div class="hovericons-7">
+                        <button class="hoverbutton1">
+                            <img src="images/clock.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                        <button class="hoverbutton2">
+                            <img src="images/playlist-1.png" alt="sd-video" width="20px" height="20px" />
+                        </button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script src="https://kit.fontawesome.com/c70d972411.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
